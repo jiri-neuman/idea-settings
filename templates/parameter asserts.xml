@@ -1,0 +1,16 @@
+<templateSet group="parameter asserts">
+  <template name="asnn" value="org.springframework.util.Assert.notNull($VAR$,&quot;$VAR_ESCAPED$ cannot be null.&quot;);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="variableOfType(&quot;&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_ESCAPED" expression="escapeString(VAR)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ass" value="org.springframework.util.Assert.state($EXPR$ ,&quot;$TEXT$&quot;);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

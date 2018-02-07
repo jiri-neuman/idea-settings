@@ -1,0 +1,20 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="http://sonar.ecp.usyuop.eu:9000" />
+          <option name="name" value="ECP Sonar" />
+          <option name="login" value="jiri.neuman" />
+          <password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</password>
+        </SonarQubeServer>
+        <SonarQubeServer>
+          <option name="hostUrl" value="http://sonar.usyuop.eu:9000" />
+          <option name="name" value="IDCC Sonar" />
+          <option name="login" value="jiri.neuman" />
+          <password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</password>
+        </SonarQubeServer>
+      </list>
+    </option>
+  </component>
+</application>

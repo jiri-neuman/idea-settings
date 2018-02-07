@@ -1,0 +1,7 @@
+<application>
+  <component name="PathMacrosImpl">
+    <macro name="FBL_HOME" value="/Users/jiri/Work/fbcs/fbl" />
+    <macro name="MAVEN_REPOSITORY" value="/Users/jiri/Work/common/maven-repository" />
+    <macro name="KOTLIN_BUNDLED" value="/Applications/IntelliJ IDEA.app/Contents/plugins/Kotlin/kotlinc" />
+  </component>
+</application>

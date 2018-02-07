@@ -1,0 +1,11 @@
+<templateSet group="junit">
+  <template name="jase" value="org.junit.Assert.assertEquals(&quot;$REAL_ESCAPED$ must be $EXPECT_ESCAPED$&quot;, $EXPECT$ , $REAL$);" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="EXPECT" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="REAL" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXPECT_ESCAPED" expression="escapeString(EXPECT)" defaultValue="" alwaysStopAt="false" />
+    <variable name="REAL_ESCAPED" expression="escapeString(REAL)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

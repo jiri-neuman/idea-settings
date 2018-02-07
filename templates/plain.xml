@@ -1,0 +1,5 @@
+<templateSet group="plain">
+  <template name="log" value="private static final Logger LOG = LoggerFactory.getLogger($CLASS_NAME$.class);" description="Adds a static logger field" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+  </template>
+</templateSet>
